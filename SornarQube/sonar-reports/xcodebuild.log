@@ -14,8 +14,8 @@ note: Planning
 Analyze workspace
 
 Create build description
-Build description signature: cda2d21d16ae3b5881157a58ccb98b58
-Build description path: /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/XCBuildData/cda2d21d16ae3b5881157a58ccb98b58-desc.xcbuild
+Build description signature: 9e8f4a3cc5c166604b8730c2e7757d44
+Build description path: /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/XCBuildData/9e8f4a3cc5c166604b8730c2e7757d44-desc.xcbuild
 
 note: Build preparation complete
 note: Building targets in dependency order
@@ -35,24 +35,13 @@ MkDir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /bin/mkdir -p /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements.plist (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements.plist
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements-Simulated.plist (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements-Simulated.plist
 
-ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app.xcent (in target 'SornarQube' from project 'SornarQube')
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements.plist (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    
-    Entitlements:
-    
-    {
-    "com.apple.security.get-task-allow" = 1;
-}
-    
-    builtin-productPackagingUtility -entitlements -format xml -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app.xcent
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/Entitlements.plist
 
 ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app-Simulated.xcent (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -68,6 +57,17 @@ ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedDat
     
     builtin-productPackagingUtility -entitlements -format xml -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app-Simulated.xcent
 
+ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app.xcent (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    
+    Entitlements:
+    
+    {
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app.xcent
+
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/all-product-headers.yaml (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/all-product-headers.yaml
@@ -75,6 +75,10 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.hmap (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.hmap
 
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-own-target-headers.hmap (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -88,10 +92,6 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-target-headers.hmap
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.hmap (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.hmap
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-non-framework-target-headers.hmap (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-non-framework-target-headers.hmap
@@ -100,23 +100,19 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube-OutputFileMap.json
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.SwiftFileList (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.SwiftFileList
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.LinkFileList (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.LinkFileList
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.SwiftFileList (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.SwiftFileList
 
 CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
     export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -incremental -module-name SornarQube -Onone -enable-batch-mode -enforce-exclusivity\=checked @/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.SwiftFileList -DDEBUG -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -target x86_64-apple-ios15.2-simulator -g -module-cache-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -profile-coverage-mapping -profile-generate -enable-testing -index-store-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Index/DataStore -swift-version 5 -I /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64 -c -j16 -output-file-map /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube-OutputFileMap.json -parseable-output -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-generated-files.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-own-target-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube-Swift.h -working-directory /Users/wonsoohyeon/SonarQubeTest/SornarQube
-
-CompileSwift normal x86_64 /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/SceneDelegate.swift (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/ViewController.swift /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/AppDelegate.swift -primary-file /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/SceneDelegate.swift -emit-module-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftmodule -emit-module-doc-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftdoc -emit-module-source-info-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftsourceinfo -emit-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.d -emit-reference-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.swiftdeps -serialize-diagnostics-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.dia -target x86_64-apple-ios15.2-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -I /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -enable-testing -g -module-cache-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -emit-localized-strings -emit-localized-strings-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64 -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -new-driver-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-driver -serialize-debugging-options -Xcc -working-directory -Xcc /Users/wonsoohyeon/SonarQubeTest/SornarQube -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-generated-files.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-own-target-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources -Xcc -DDEBUG\=1 -module-name SornarQube -target-sdk-version 15.2.0 -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.o -index-store-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Index/DataStore -index-system-modules
 
 CompileSwift normal x86_64 /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/AppDelegate.swift (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -125,6 +121,10 @@ CompileSwift normal x86_64 /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQub
 CompileSwift normal x86_64 /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/ViewController.swift (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -primary-file /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/ViewController.swift /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/AppDelegate.swift /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/SceneDelegate.swift -emit-module-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController\~partial.swiftmodule -emit-module-doc-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController\~partial.swiftdoc -emit-module-source-info-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController\~partial.swiftsourceinfo -emit-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController.d -emit-reference-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController.swiftdeps -serialize-diagnostics-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController.dia -target x86_64-apple-ios15.2-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -I /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -enable-testing -g -module-cache-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -emit-localized-strings -emit-localized-strings-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64 -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -new-driver-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-driver -serialize-debugging-options -Xcc -working-directory -Xcc /Users/wonsoohyeon/SonarQubeTest/SornarQube -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-generated-files.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-own-target-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources -Xcc -DDEBUG\=1 -module-name SornarQube -target-sdk-version 15.2.0 -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/ViewController.o -index-store-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Index/DataStore -index-system-modules
+
+CompileSwift normal x86_64 /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/SceneDelegate.swift (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/ViewController.swift /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/AppDelegate.swift -primary-file /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/SceneDelegate.swift -emit-module-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftmodule -emit-module-doc-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftdoc -emit-module-source-info-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate\~partial.swiftsourceinfo -emit-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.d -emit-reference-dependencies-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.swiftdeps -serialize-diagnostics-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.dia -target x86_64-apple-ios15.2-simulator -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -I /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -enable-testing -g -module-cache-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -profile-generate -profile-coverage-mapping -emit-localized-strings -emit-localized-strings-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64 -swift-version 5 -enforce-exclusivity\=checked -Onone -D DEBUG -new-driver-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-driver -serialize-debugging-options -Xcc -working-directory -Xcc /Users/wonsoohyeon/SonarQubeTest/SornarQube -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -enable-anonymous-context-mangled-names -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-generated-files.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-own-target-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-all-target-headers.hmap -Xcc -iquote -Xcc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube-project-headers.hmap -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources-normal/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources/x86_64 -Xcc -I/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources -Xcc -DDEBUG\=1 -module-name SornarQube -target-sdk-version 15.2.0 -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SceneDelegate.o -index-store-path /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Index/DataStore -index-system-modules
 
 MergeSwiftModule normal x86_64 (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -138,17 +138,21 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube-Swift.h /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/DerivedSources
 
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftdoc (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
-
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftdoc (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftdoc
 
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftdoc (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftmodule (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftmodule (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftmodule
 
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -157,10 +161,6 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/Project/x86_64.swiftsourceinfo (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/Project/x86_64.swiftsourceinfo
-
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftmodule (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.swiftmodule/x86_64.swiftmodule
 
 CompileAssetCatalog /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube/Assets.xcassets (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -218,8 +218,8 @@ note: Planning
 Analyze workspace
 
 Create build description
-Build description signature: 29b846657448a4f4067d73edf0a73f7f
-Build description path: /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/XCBuildData/29b846657448a4f4067d73edf0a73f7f-desc.xcbuild
+Build description signature: d35fae2e62fa672b2de25251a8c605bc
+Build description path: /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/XCBuildData/d35fae2e62fa672b2de25251a8c605bc-desc.xcbuild
 
 note: Build preparation complete
 note: Building targets in dependency order
@@ -227,6 +227,7 @@ MkDir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /bin/mkdir -p /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
 
+/Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQube.xcodeproj: warning: The Copy Bundle Resources build phase contains this target's Info.plist file '/Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/info.plist'. (in target 'SornarQubeUITests' from project 'SornarQube')
 MkDir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /bin/mkdir -p /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest
@@ -256,10 +257,6 @@ ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedDat
     
     builtin-productPackagingUtility -entitlements -format xml -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app-Simulated.xcent
 
-PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/libXCTestSwiftSupport.dylib (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
-
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/libXCTestBundleInject.dylib (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestBundleInject.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
@@ -267,6 +264,14 @@ PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platf
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/XCUnit.framework (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
+
+Ld /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/SornarQube normal (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios15.2-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -L/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -filelist /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app-Simulated.xcent -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube_dependency_info.dat -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/SornarQube
+
+PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/libXCTestSwiftSupport.dylib (in target 'SornarQube' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
 
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/XCUIAutomation.framework (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -279,10 +284,6 @@ PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platf
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/XCTest.framework (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks
-
-Ld /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/SornarQube normal (in target 'SornarQube' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios15.2-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -L/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -F/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -filelist /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube.swiftmodule -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app-Simulated.xcent -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/Objects-normal/x86_64/SornarQube_dependency_info.dat -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/SornarQube
 
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/Frameworks/XCTAutomationSupport.framework (in target 'SornarQube' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -307,17 +308,21 @@ ProcessProductPackaging "" /Users/wonsoohyeon/Library/Developer/Xcode/DerivedDat
     
     builtin-productPackagingUtility -entitlements -format xml -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests.xctest-Simulated.xcent
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/all-product-headers.yaml (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/all-product-headers.yaml
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests.hmap
 
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/all-product-headers.yaml (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/all-product-headers.yaml
+
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-own-target-headers.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-generated-files.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-generated-files.hmap
 
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-project-headers.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -327,21 +332,17 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-all-target-headers.hmap
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-generated-files.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-generated-files.hmap
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-all-non-framework-target-headers.hmap (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests-all-non-framework-target-headers.hmap
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests-OutputFileMap.json (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests-OutputFileMap.json
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.SwiftFileList (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.SwiftFileList
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests-OutputFileMap.json (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests-OutputFileMap.json
 
 CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -397,17 +398,13 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests.hmap
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-project-headers.hmap (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-project-headers.hmap
-
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-all-non-framework-target-headers.hmap (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-all-non-framework-target-headers.hmap
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-own-target-headers.hmap (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-project-headers.hmap (in target 'SornarQubeTests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-project-headers.hmap
 
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-generated-files.hmap (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -417,9 +414,17 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-all-target-headers.hmap
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/empty-SornarQubeTests.plist (in target 'SornarQubeTests' from project 'SornarQube')
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-all-non-framework-target-headers.hmap (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/empty-SornarQubeTests.plist
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/SornarQubeTests-all-non-framework-target-headers.hmap
+
+ProcessInfoPlistFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/PlugIns/SornarQubeTests.xctest/Info.plist /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeTests/info.plist (in target 'SornarQubeTests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-infoPlistUtility /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeTests/info.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/PlugIns/SornarQubeTests.xctest/Info.plist
+
+WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests-OutputFileMap.json (in target 'SornarQubeTests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests-OutputFileMap.json
 
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.LinkFileList (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -428,14 +433,6 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.SwiftFileList (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.SwiftFileList
-
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests-OutputFileMap.json (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests-OutputFileMap.json
-
-ProcessInfoPlistFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/PlugIns/SornarQubeTests.xctest/Info.plist /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/empty-SornarQubeTests.plist (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-infoPlistUtility /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/empty-SornarQubeTests.plist -producttype com.apple.product-type.bundle.unit-test -expandbuildsettings -format binary -platform iphonesimulator -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/PlugIns/SornarQubeTests.xctest/Info.plist
 
 CompileSwiftSources normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -454,10 +451,6 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests-Swift.h /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/DerivedSources
 
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
-
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64.swiftmodule (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64.swiftmodule
@@ -469,6 +462,10 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64.swiftdoc (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64.swiftdoc
+
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
 
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -486,14 +483,6 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests-Swift.h /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/DerivedSources
 
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
-
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64.swiftdoc (in target 'SornarQubeTests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64.swiftdoc
-
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftdoc (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
@@ -502,13 +491,21 @@ PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64.swiftmodule
 
-PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64.swiftsourceinfo (in target 'SornarQubeTests' from project 'SornarQube')
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64.swiftdoc (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64.swiftsourceinfo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftdoc /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64.swiftdoc
+
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule (in target 'SornarQubeTests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftmodule /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
 
 PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+PBXCp /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64.swiftsourceinfo (in target 'SornarQubeTests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeTests.build/Objects-normal/x86_64/SornarQubeTests.swiftsourceinfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeTests.swiftmodule/Project/x86_64.swiftsourceinfo
 
 CopySwiftLibs /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app/PlugIns/SornarQubeTests.xctest (in target 'SornarQubeTests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -541,10 +538,6 @@ CodeSign /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhe
     
     /usr/bin/codesign --force --sign - --entitlements /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQube.build/SornarQube.app.xcent --timestamp\=none --generate-entitlement-der /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQube.app
 
-WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/empty-SornarQubeUITests.plist (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/empty-SornarQubeUITests.plist
-
 WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/ProductTypeInfoPlistAdditions.plist (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/ProductTypeInfoPlistAdditions.plist
@@ -553,13 +546,17 @@ WriteAuxiliaryFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/Sornar
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     write-file /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.LinkFileList
 
-ProcessInfoPlistFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Info.plist /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/empty-SornarQubeUITests.plist (in target 'SornarQubeUITests' from project 'SornarQube')
+ProcessInfoPlistFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Info.plist /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/info.plist (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-infoPlistUtility /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/empty-SornarQubeUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/ProductTypeInfoPlistAdditions.plist -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Info.plist
+    builtin-infoPlistUtility /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/info.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/ProductTypeInfoPlistAdditions.plist -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Info.plist
 
 Ld /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/SornarQubeUITests normal (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios15.2-simulator -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk -L/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib -F/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk/Developer/Library/Frameworks -filelist /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.LinkFileList -Xlinker -rpath -Xlinker @loader_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests_lto.o -Xlinker -export_dynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -debug_variant -fobjc-link-runtime -fprofile-instr-generate -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests.swiftmodule -framework XCTest -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SornarQubeUITests.xctest-Simulated.xcent -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/Objects-normal/x86_64/SornarQubeUITests_dependency_info.dat -o /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/SornarQubeUITests
+
+CopyPlistFile /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/info.plist /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/info.plist (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copyPlist --convert binary1 --outdir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest -- /Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/info.plist
 
 CopySwiftLibs /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -567,10 +564,6 @@ CopySwiftLibs /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-
     export DEVELOPER_DIR\=/Applications/Xcode.app/Contents/Developer
     export SDKROOT\=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.2.sdk
     builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/SornarQubeUITests --scan-folder /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Frameworks --scan-folder /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/PlugIns --platform iphonesimulator --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Intermediates.noindex/SornarQube.build/Debug-iphonesimulator/SornarQubeUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os
-
-CopyAndPreserveArchs /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/SornarQubeUITests-Runner (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/SornarQubeUITests-Runner -extract x86_64
 
 Preprocess /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Info.plist /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -580,21 +573,9 @@ Ditto /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnj
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /usr/bin/ditto -rsrc /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PkgInfo
 
-MkDir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    /bin/mkdir -p /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app
-
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCUnit.framework (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUnit.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
-
-PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCTestCore.framework (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
-
-PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCTAutomationSupport.framework (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
 
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/libXCTestSwiftSupport.dylib (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -604,9 +585,25 @@ PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platf
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCUIAutomation.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
 
+PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCTestCore.framework (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTestCore.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
+
+PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCTAutomationSupport.framework (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
+
 PBXCp /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks/XCTest.framework (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -exclude Headers -exclude PrivateHeaders -exclude Modules -exclude \*.tbd -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/Frameworks
+
+MkDir /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    /bin/mkdir -p /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app
+
+CopyAndPreserveArchs /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/SornarQubeUITests-Runner (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/SornarQubeUITests-Runner -extract x86_64
 
 CodeSign /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -615,6 +612,10 @@ CodeSign /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhe
     Signing Identity:     "-"
     
     /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest
+
+RegisterExecutionPolicyException /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
+    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
+    builtin-RegisterExecutionPolicyException /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest
 
 CodeSign /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
@@ -625,154 +626,21 @@ CodeSign /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhe
     /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app
 /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app: replacing existing signature
 
-RegisterExecutionPolicyException /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
-    cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
-    builtin-RegisterExecutionPolicyException /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest
-
 Touch /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest (in target 'SornarQubeUITests' from project 'SornarQube')
     cd /Users/wonsoohyeon/SonarQubeTest/SornarQube
     /usr/bin/touch -c /Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Build/Products/Debug-iphonesimulator/SornarQubeUITests-Runner.app/PlugIns/SornarQubeUITests.xctest
 
-Test Suite 'All tests' started at 2022-03-31 21:51:11.092
-Test Suite 'SornarQubeTests.xctest' started at 2022-03-31 21:51:11.094
-Test Suite 'SornarQubeTests' started at 2022-03-31 21:51:11.095
+Test Suite 'All tests' started at 2022-03-31 23:25:14.855
+Test Suite 'SornarQubeTests.xctest' started at 2022-03-31 23:25:14.857
+Test Suite 'SornarQubeTests' started at 2022-03-31 23:25:14.857
 Test Case '-[SornarQubeTests.SornarQubeTests testExample]' started.
 Test Case '-[SornarQubeTests.SornarQubeTests testExample]' passed (0.002 seconds).
 Test Case '-[SornarQubeTests.SornarQubeTests testPerformanceExample]' started.
-/Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeTests/SornarQubeTests.swift:31: Test Case '-[SornarQubeTests.SornarQubeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 60.396%, values: [0.000027, 0.000011, 0.000009, 0.000008, 0.000007, 0.000008, 0.000007, 0.000007, 0.000007, 0.000007], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
-Test Case '-[SornarQubeTests.SornarQubeTests testPerformanceExample]' passed (0.277 seconds).
-Test Suite 'SornarQubeTests' passed at 2022-03-31 21:51:11.375.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.279 (0.281) seconds
-Test Suite 'SornarQubeTests.xctest' passed at 2022-03-31 21:51:11.376.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.279 (0.282) seconds
-Test Suite 'All tests' passed at 2022-03-31 21:51:11.376.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 0.279 (0.284) seconds
-2022-03-31 21:51:14.773148+0900 SornarQubeUITests-Runner[39769:3249971] Running tests...
-Test Suite 'All tests' started at 2022-03-31 21:51:15.222
-Test Suite 'SornarQubeUITests.xctest' started at 2022-03-31 21:51:15.224
-Test Suite 'SornarQubeUITests' started at 2022-03-31 21:51:15.224
-Test Case '-[SornarQubeUITests.SornarQubeUITests testExample]' started.
-    t =     0.00s Start Test at 2022-03-31 21:51:15.226
-    t =     0.04s Set Up
-    t =     0.05s Open com.sornarqube
-    t =     0.08s     Launch com.sornarqube
-    t =     2.32s         Setting up automation session
-    t =     2.55s         Wait for com.sornarqube to idle
-    t =     3.60s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITests testExample]' passed (3.802 seconds).
-Test Case '-[SornarQubeUITests.SornarQubeUITests testLaunchPerformance]' started.
-    t =     0.00s Start Test at 2022-03-31 21:51:19.028
-    t =     0.02s Set Up
-    t =     0.03s Open com.sornarqube
-    t =     0.05s     Launch com.sornarqube
-    t =     0.05s         Terminate com.sornarqube:39775
-    t =     3.40s         Setting up automation session
-    t =     3.63s         Wait for com.sornarqube to idle
-    t =    14.98s Open com.sornarqube
-    t =    15.00s     Launch com.sornarqube
-    t =    15.00s         Terminate com.sornarqube:39780
-    t =    18.51s         Setting up automation session
-    t =    18.70s         Wait for com.sornarqube to idle
-    t =    29.89s Open com.sornarqube
-    t =    29.91s     Launch com.sornarqube
-    t =    29.91s         Terminate com.sornarqube:39788
-    t =    33.46s         Setting up automation session
-    t =    33.68s         Wait for com.sornarqube to idle
-    t =    44.89s Open com.sornarqube
-    t =    44.91s     Launch com.sornarqube
-    t =    44.91s         Terminate com.sornarqube:39797
-    t =    48.22s         Setting up automation session
-    t =    48.45s         Wait for com.sornarqube to idle
-    t =    59.63s Open com.sornarqube
-    t =    59.66s     Launch com.sornarqube
-    t =    59.66s         Terminate com.sornarqube:39802
-    t =    63.20s         Setting up automation session
-    t =    63.45s         Wait for com.sornarqube to idle
-    t =    74.64s Open com.sornarqube
-    t =    74.66s     Launch com.sornarqube
-    t =    74.66s         Terminate com.sornarqube:39812
-    t =    78.17s         Setting up automation session
-    t =    78.43s         Wait for com.sornarqube to idle
-/Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeUITests/SornarQubeUITests.swift:37: Test Case '-[SornarQubeUITests.SornarQubeUITests testLaunchPerformance]' measured [Duration (AppLaunch), s] average: 0.495, relative standard deviation: 5.022%, values: [0.474108, 0.497294, 0.461195, 0.519578, 0.525139], performanceMetricID:com.apple.dt.XCTMetric_ApplicationLaunch-AppLaunch.duration, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.000, maxStandardDeviation: 0.000
-    t =    89.65s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITests testLaunchPerformance]' passed (89.854 seconds).
-Test Suite 'SornarQubeUITests' passed at 2022-03-31 21:52:48.882.
-	 Executed 2 tests, with 0 failures (0 unexpected) in 93.657 (93.658) seconds
-Test Suite 'SornarQubeUITestsLaunchTests' started at 2022-03-31 21:52:48.883
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' started.
-    t =     0.00s Setting device orientation to Portrait
-    t =     0.03s     Wait for com.sornarqube to idle
-    t =     0.34s Setting appearance mode to Light
-    t =     0.37s     Wait for com.sornarqube to idle
-    t =     0.40s Start Test at 2022-03-31 21:52:49.278
-    t =     0.44s Set Up
-    t =     0.44s Open com.sornarqube
-    t =     0.46s     Launch com.sornarqube
-    t =     0.46s         Terminate com.sornarqube:39826
-    t =     3.91s         Setting up automation session
-    t =     4.15s         Wait for com.sornarqube to idle
-    t =     5.19s Find the Target Application 'com.sornarqube'
-    t =     5.30s Added attachment named 'Launch Screen'
-    t =     5.30s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' passed (5.504 seconds).
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' started.
-    t =     0.00s Setting device orientation to Landscape Right
-    t =     0.03s     Wait for com.sornarqube to idle
-    t =     0.34s Setting appearance mode to Light
-    t =     2.37s     Wait for com.sornarqube to idle
-    t =     2.39s Start Test at 2022-03-31 21:52:56.778
-    t =     2.41s Set Up
-    t =     2.41s Open com.sornarqube
-    t =     2.44s     Launch com.sornarqube
-    t =     2.44s         Terminate com.sornarqube:39839
-    t =     5.74s         Setting up automation session
-    t =     6.09s         Wait for com.sornarqube to idle
-    t =     7.13s Find the Target Application 'com.sornarqube'
-    t =     7.24s Added attachment named 'Launch Screen'
-    t =     7.24s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' passed (7.444 seconds).
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' started.
-    t =     0.00s Setting device orientation to Portrait
-    t =     0.03s     Wait for com.sornarqube to idle
-    t =     0.34s Setting appearance mode to Dark
-    t =     0.37s     Wait for com.sornarqube to idle
-    t =     0.40s Start Test at 2022-03-31 21:53:02.227
-    t =     0.43s Set Up
-    t =     0.43s Open com.sornarqube
-    t =     0.46s     Launch com.sornarqube
-    t =     0.46s         Terminate com.sornarqube:39842
-    t =     1.72s         Setting up automation session
-    t =     2.05s         Wait for com.sornarqube to idle
-    t =     3.09s Find the Target Application 'com.sornarqube'
-    t =     3.20s Added attachment named 'Launch Screen'
-    t =     3.21s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' passed (3.407 seconds).
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' started.
-    t =     0.00s Setting device orientation to Landscape Right
-    t =     0.03s     Wait for com.sornarqube to idle
-    t =     0.34s Setting appearance mode to Dark
-    t =     2.37s     Wait for com.sornarqube to idle
-    t =     2.39s Start Test at 2022-03-31 21:53:07.629
-    t =     2.41s Set Up
-    t =     2.41s Open com.sornarqube
-    t =     2.43s     Launch com.sornarqube
-    t =     2.43s         Terminate com.sornarqube:39845
-    t =     6.00s         Setting up automation session
-    t =     6.26s         Wait for com.sornarqube to idle
-    t =     7.31s Find the Target Application 'com.sornarqube'
-    t =     7.45s Added attachment named 'Launch Screen'
-    t =     7.45s Tear Down
-Test Case '-[SornarQubeUITests.SornarQubeUITestsLaunchTests testLaunch]' passed (7.650 seconds).
-Test Suite 'SornarQubeUITestsLaunchTests' passed at 2022-03-31 21:53:12.889.
-	 Executed 4 tests, with 0 failures (0 unexpected) in 24.004 (24.006) seconds
-Test Suite 'SornarQubeUITests.xctest' passed at 2022-03-31 21:53:12.890.
-	 Executed 6 tests, with 0 failures (0 unexpected) in 117.661 (117.666) seconds
-Test Suite 'All tests' passed at 2022-03-31 21:53:12.891.
-	 Executed 6 tests, with 0 failures (0 unexpected) in 117.661 (117.668) seconds
-
-Test session results, code coverage, and logs:
-	/Users/wonsoohyeon/Library/Developer/Xcode/DerivedData/SornarQube-cqbhefnjyzmvilcprgusiixddwed/Logs/Test/Run-SornarQube-2022.03.31_21-51-01-+0900.xcresult
-
-** TEST SUCCEEDED **
-
-Testing started
+/Users/wonsoohyeon/SonarQubeTest/SornarQube/SornarQubeTests/SornarQubeTests.swift:31: Test Case '-[SornarQubeTests.SornarQubeTests testPerformanceExample]' measured [Time, seconds] average: 0.000, relative standard deviation: 78.153%, values: [0.000037, 0.000012, 0.000009, 0.000008, 0.000008, 0.000008, 0.000007, 0.000007, 0.000007, 0.000007], performanceMetricID:com.apple.XCTPerformanceMetric_WallClockTime, baselineName: "", baselineAverage: , polarity: prefers smaller, maxPercentRegression: 10.000%, maxPercentRelativeStandardDeviation: 10.000%, maxRegression: 0.100, maxStandardDeviation: 0.100
+Test Case '-[SornarQubeTests.SornarQubeTests testPerformanceExample]' passed (0.259 seconds).
+Test Suite 'SornarQubeTests' passed at 2022-03-31 23:25:15.120.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.261 (0.263) seconds
+Test Suite 'SornarQubeTests.xctest' passed at 2022-03-31 23:25:15.120.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.261 (0.264) seconds
+Test Suite 'All tests' passed at 2022-03-31 23:25:15.121.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.261 (0.266) seconds
